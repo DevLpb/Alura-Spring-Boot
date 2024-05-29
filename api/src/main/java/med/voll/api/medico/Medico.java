@@ -9,7 +9,7 @@ import med.voll.api.direccion.Direccion;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
-@Getter
+@Getter //Requiere Plugin Lombok
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
