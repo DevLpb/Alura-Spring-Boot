@@ -7,10 +7,8 @@ create table pacientes(
     telefono varchar(20) not null,
     calle varchar(100) not null,
     distrito varchar(100) not null,
-    codigoPostal varchar(9) not null,
     complemento varchar(100),
     numero varchar(20),
-    provincia varchar(100) not null,
     ciudad varchar(100) not null,
 
     primary key(id)
